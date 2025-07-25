@@ -1,10 +1,11 @@
-# 👩‍🏫 MentorConnect Pro
+ 👩‍🏫 MentorConnect Pro
 
 MentorConnect Pro is a modern, responsive web project built to connect mentors and mentees through a clean interface, profile filtering, and a functional contact form.
 
 ## 🌐 Live Preview
 
-> [Add your GitHub Pages or Netlify link here]
+><img width="1883" height="941" alt="image" src="https://github.com/user-attachments/assets/135883d2-1312-4823-ba03-0fefb6565878" />
+
 
 ---
 
@@ -17,15 +18,15 @@ MentorConnect Pro is a modern, responsive web project built to connect mentors a
 - ✨ Smooth animations & modern UI  
 - ♿ Accessible layout and semantic HTML  
 
----
-
 ## 📁 Project Structure
 
+```
 📁 mentorship_website/
-├── index.html # Main HTML file
-├── style.css # Styling (CSS)
-├── script.js # JavaScript interactivity
-└── README.md # Project overview and documentation
+├── website.html      # Main HTML file
+├── style.css         # Styling (CSS)
+├── script.js         # JavaScript interactivity
+└── README.md         # Project overview and documentation
+```
 
 🛠️ Built With
 HTML5
