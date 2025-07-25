@@ -3,7 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mentor Website</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header class="hero">
+        <h1>Welcome to Mentor Connect 💼</h1>
+        <p>Empowering learners and leaders through meaningful connections.</p>
+        <div class="cta">
+          <button onclick="filterProfiles('Mentor')">View Mentors</button>
+          <button onclick="filterProfiles('Mentee')">View Mentees</button>
+          <button onclick="filterProfiles('All')">Show All</button>
+        </div>
+      </header>
+
+      <section class="profiles">
+        <h2>🌐 Meet Our Members</h2>
+        <div class="cards" id="profileCards">
+          <div class="card" data-role="Mentor">
+            <h3>Vaibhav</h3>
+            <p>Mentor – Web Development</p>
+          </div>
+          <div class="card" data-role="Mentee">
+            <h3>Rohit</h3>
+            <p>Mentee – Data Science</p>
+          </div>
+          <div class="card" data-role="Mentor">
+            <h3>Gourav</h3>
+            <p>Mentor – Machine Learning</p>
+          </div>
+          <div class="card" data-role="Mentee">
+            <h3>Yusuf</h3>
+            <p>Mentee – UI/UX Design</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>📬 Contact Us</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p id="formResponse" class="response"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
